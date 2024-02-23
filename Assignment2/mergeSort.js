@@ -1,7 +1,7 @@
 function mergeSort(arr) {
     // base case
     if (arr.length < 2) {
-        return;
+        return arr;
     }
 
     // split arr in the middle
